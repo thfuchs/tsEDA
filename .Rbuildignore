@@ -1,3 +1,3 @@
-^valid\.package\.name\.goes\.here\.Rproj$
+^.*\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
