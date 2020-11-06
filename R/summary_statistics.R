@@ -11,8 +11,8 @@ summary_statistics <- function(data, cols) {
 
   data[, purrr::map_df(.SD, function(x) c(
     Mean = mean(x, na.rm = TRUE),
-    Median = median(x, na.rm = TRUE),
-    `Std. Dev` = sd(x, na.rm = TRUE),
+    Median = stats::median(x, na.rm = TRUE),
+    `Std. Dev` = stats::sd(x, na.rm = TRUE),
     Min = min(x, na.rm = TRUE),
     Max = max(x, na.rm = TRUE),
     N = sum(!is.na(x))

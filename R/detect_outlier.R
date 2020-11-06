@@ -15,7 +15,9 @@
 #' @export
 #'
 #' @examples
-#' detect_outlier(fcf::dow30[ticker == "AAPL",], value_col = "ebit")[]
+#' \dontrun{
+#'   detect_outlier(fcf::dow30[ticker == "AAPL",], value_col = "ebit")[]
+#' }
 detect_outlier <- function(
   data,
   value_col,

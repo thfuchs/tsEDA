@@ -31,5 +31,7 @@ values and replacement suggests
 Requires \code{id}, \code{date} and \code{value} column
 }
 \examples{
-detect_outlier(fcf::dow30[ticker == "AAPL",], value_col = "ebit")[]
+\dontrun{
+  detect_outlier(fcf::dow30[ticker == "AAPL",], value_col = "ebit")[]
+}
 }

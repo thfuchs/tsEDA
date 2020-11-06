@@ -31,8 +31,6 @@ plot_outlier(
 \item{arrow_size}{vector of length 2 for arrow head and -line}
 
 \item{ncol}{how much columns of plots? Default of 2}
-
-\item{circle_size}{size of circles around dots in scatter plots}
 }
 \value{
 cowplot object
